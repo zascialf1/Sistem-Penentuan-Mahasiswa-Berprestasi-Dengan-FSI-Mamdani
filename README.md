@@ -1,17 +1,32 @@
-# 🎓 Sistem Penentuan Mahasiswa Berprestasi
+# Sistem Penentuan Mahasiswa Berprestasi
 ### Fuzzy Inference System — Metode Mamdani
 
 Sistem ini merupakan implementasi **Fuzzy Inference System (FIS) Mamdani** untuk menentukan tingkat prestasi mahasiswa berdasarkan empat kriteria input. Dibangun menggunakan Python dengan antarmuka GUI berbasis Tkinter.
 
 ---
 
-## 📋 Deskripsi
+## Deskripsi
 
 Program studi membutuhkan sistem yang objektif untuk memilih mahasiswa berprestasi setiap semester. Sistem ini menggunakan logika fuzzy metode Mamdani untuk mengolah empat variabel input dan menghasilkan keputusan berupa kategori tingkat prestasi mahasiswa.
 
 ---
 
-## 🔢 Variabel Sistem
+## Informasi
+
+| | |
+|---|---|
+| **Mata Kuliah** | Kecerdasan Buatan |
+| **Topik** | Sistem Penentuan Mahasiswa Berprestasi |
+| **Metode** | Fuzzy Inference System Mamdani |
+| **Nama** | [Nathasya Herdaningsih, Zaskia Alifa, Melva Fereyzha Kirana Myko Putri] |
+| **NIM** | [2410511139, 2410511156, 2410511165] |
+| **Program Studi** | [S1 Informatika] |
+| **Fakultas** | [Fakultas Ilmu Komputer] |
+| **Universitas** | [Universitas Pembangunan Nasional "Veteran" Jakarta] |
+
+---
+
+## Variabel Sistem
 
 ### Input
 | Variabel | Domain | Himpunan Fuzzy |
@@ -28,7 +43,7 @@ Program studi membutuhkan sistem yang objektif untuk memilih mahasiswa berpresta
 
 ---
 
-## ⚙️ Fungsi Keanggotaan
+## Fungsi Keanggotaan
 
 ### IPK
 - **Rendah** : Linear turun, a=1.5, b=2.5
@@ -57,7 +72,7 @@ Program studi membutuhkan sistem yang objektif untuk memilih mahasiswa berpresta
 
 ---
 
-## 📏 Rule Base (11 Aturan)
+## Rule Base (11 Aturan)
 
 | Rule | IPK | Prestasi | Organisasi | Kehadiran | Output |
 |---|---|---|---|---|---|
@@ -75,7 +90,7 @@ Program studi membutuhkan sistem yang objektif untuk memilih mahasiswa berpresta
 
 ---
 
-## 🔄 Alur Proses Fuzzy Mamdani
+## Alur Proses Fuzzy Mamdani
 
 ```
 Input Nilai
@@ -97,7 +112,7 @@ Output Kategori
 
 ---
 
-## 🖥️ Tampilan GUI
+## Tampilan GUI
 
 Aplikasi menampilkan:
 - 4 field input untuk memasukkan nilai secara manual
@@ -107,7 +122,7 @@ Aplikasi menampilkan:
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 ### Prasyarat
 - Python 3.x (download di [python.org](https://python.org))
@@ -127,7 +142,7 @@ python fuzzy_mamdani_v3.py
 
 ---
 
-## 🧮 Contoh Perhitungan
+## Contoh Perhitungan
 
 | Input | Nilai |
 |---|---|
@@ -154,7 +169,7 @@ python fuzzy_mamdani_v3.py
 
 ---
 
-## 🛠️ Teknologi
+## Teknologi
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
@@ -162,15 +177,5 @@ python fuzzy_mamdani_v3.py
 
 ---
 
-## 👤 Informasi
 
-| | |
-|---|---|
-| **Mata Kuliah** | Kecerdasan Buatan |
-| **Topik** | Sistem Penentuan Mahasiswa Berprestasi |
-| **Metode** | Fuzzy Inference System Mamdani |
-| **Nama** | [Nama Mahasiswa] |
-| **NIM** | [NIM] |
-| **Program Studi** | [Nama Prodi] |
-| **Universitas** | [Nama Universitas] |
 
